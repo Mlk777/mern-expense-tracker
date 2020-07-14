@@ -1,0 +1,33 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+/* Custom css */
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+.border-r-green-500 {
+  border-right-color: #48bb78;
+}
+
+.border-r-red-700 {
+  border-right-color: #c53030;
+}
+
+@media (min-width: 768px) {
+  .fas {
+    font-size: 1.33em;
+    vertical-align: -25%;
+  }
+}
